@@ -16,7 +16,7 @@
   align-items: center;
 }
 .content .aboutHeaderArea .aboutHeaderImage {
-  background-image: url("/dist/images/about1.jpg");
+  background-image: url("../../dist/images/about1.jpg");
   background-size: cover;
   background-position: bottom center;
   width: 80vw;
@@ -61,35 +61,35 @@
   grid-row: 1/22;
 }
 .content .collage .collageImage1 {
-  background-image: url("/dist/images/aboutCollage1.jpg");
+  background-image: url("../../dist/images/aboutCollage1.jpg");
   background-size: cover;
   grid-column: 2/12;
   grid-row: 4/18;
   opacity: 0.2;
 }
 .content .collage .collageImage2 {
-  background-image: url("/dist/images/aboutCollage2.jpg");
+  background-image: url("../../dist/images/aboutCollage2.jpg");
   background-size: cover;
   grid-column: 13/20;
   grid-row: 6/16;
   opacity: 0.2;
 }
 .content .collage .collageImage3 {
-  background-image: url("/dist/images/aboutCollage3.jpg");
+  background-image: url("../../dist/images/aboutCollage3.jpg");
   background-size: cover;
   grid-column: 3/11;
   grid-row: 3/11;
   opacity: 0.2;
 }
 .content .collage .collageImage4 {
-  background-image: url("/dist/images/aboutCollage4.jpg");
+  background-image: url("../../dist/images/aboutCollage4.jpg");
   background-size: cover;
   grid-column: 3/11;
   grid-row: 13/20;
   opacity: 0.2;
 }
 .content .collage .collageImage5 {
-  background-image: url("/dist/images/aboutCollage5.jpg");
+  background-image: url("../../dist/images/aboutCollage5.jpg");
   background-size: cover;
   background-position: center;
   grid-column: 12/20;
@@ -97,7 +97,7 @@
   opacity: 0.2;
 }
 .content .collage .collageImage6 {
-  background-image: url("/dist/images/aboutCollage6.jpg");
+  background-image: url("../../dist/images/aboutCollage6.jpg");
   background-size: cover;
   background-position: center;
   grid-column: 11/20;
@@ -105,7 +105,7 @@
   opacity: 0.2;
 }
 .content .collage .collageImage7 {
-  background-image: url("/dist/images/aboutCollage7.jpg");
+  background-image: url("../../dist/images/aboutCollage7.jpg");
   background-size: cover;
   grid-column: 2/9;
   grid-row: 6/17;
@@ -142,7 +142,7 @@
   }
 }
 .content .splitCollage .splitCollageImage8 {
-  background-image: url("/dist/images/aboutCollage8.jpg");
+  background-image: url("./dist/images/aboutCollage8.jpg");
   background-size: cover;
   grid-column: 2/11;
   grid-row: 1/14;
@@ -160,7 +160,7 @@
   height: 80vh;
 }
 .content .aboutImage2 {
-  background-image: url("/dist/images/about2.jpg");
+  background-image: url("./dist/images/about2.jpg");
 }
 
 .fadeIn {

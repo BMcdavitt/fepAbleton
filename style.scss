@@ -34,7 +34,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     align-items: center;
 
     .aboutHeaderImage {
-      background-image: url('/dist/images/about1.jpg');
+      background-image: url('../../dist/images/about1.jpg');
       background-size: cover;
       background-position: bottom center;
       width: 80vw;
@@ -88,7 +88,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .collageImage1 {
-      background-image: url('/dist/images/aboutCollage1.jpg');
+      background-image: url('../../dist/images/aboutCollage1.jpg');
       background-size: cover;
       grid-column: 2 / 12;
       grid-row: 4 / 18;
@@ -96,7 +96,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .collageImage2 {
-      background-image: url('/dist/images/aboutCollage2.jpg');
+      background-image: url('../../dist/images/aboutCollage2.jpg');
       background-size: cover;
       grid-column: 13 / 20;
       grid-row: 6 / 16;
@@ -104,7 +104,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .collageImage3 {
-      background-image: url('/dist/images/aboutCollage3.jpg');
+      background-image: url('../../dist/images/aboutCollage3.jpg');
       background-size: cover;
       grid-column: 3 / 11;
       grid-row: 3 / 11;
@@ -112,7 +112,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .collageImage4 {
-      background-image: url('/dist/images/aboutCollage4.jpg');
+      background-image: url('../../dist/images/aboutCollage4.jpg');
       background-size: cover;
       grid-column: 3 / 11;
       grid-row: 13/ 20;
@@ -120,7 +120,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .collageImage5 {
-      background-image: url('/dist/images/aboutCollage5.jpg');
+      background-image: url('../../dist/images/aboutCollage5.jpg');
       background-size: cover;
       background-position: center;
       grid-column: 12 / 20;
@@ -129,7 +129,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .collageImage6 {
-      background-image: url('/dist/images/aboutCollage6.jpg');
+      background-image: url('../../dist/images/aboutCollage6.jpg');
       background-size: cover;
       background-position: center;
       grid-column: 11 / 20;
@@ -138,7 +138,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .collageImage7 {
-      background-image: url('/dist/images/aboutCollage7.jpg');
+      background-image: url('../../dist/images/aboutCollage7.jpg');
       background-size: cover;
       grid-column: 2 / 9;
       grid-row: 6/ 17;
@@ -178,7 +178,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .splitCollageImage8 {
-      background-image: url('/dist/images/aboutCollage8.jpg');
+      background-image: url('./dist/images/aboutCollage8.jpg');
       background-size: cover;
       grid-column: 2 / 11;
       grid-row: 1/ 14;
@@ -199,7 +199,7 @@ $color-greener-900: hsl(167, 89%, 7%);
   }
 
   .aboutImage2 {
-    background-image: url('/dist/images/about2.jpg');
+    background-image: url('./dist/images/about2.jpg');
   }
 }
 
