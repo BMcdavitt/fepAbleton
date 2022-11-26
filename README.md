@@ -34,7 +34,7 @@ Recreate this to learn:
 
 ### Links
 
-- Solution URL: [https://github.com/BMcdavitt/femNotificationsPage/tree/master](https://github.com/BMcdavitt/femNotificationsPage/tree/master)
+- Solution URL: [https://github.com/BMcdavitt/fepAbleton](https://github.com/BMcdavitt/fepAbleton)
 - Live Site URL: [https://bmcdavitt.github.io/femNotificationsPage/](https://bmcdavitt.github.io/femNotificationsPage/)
 
 ## My process
@@ -48,6 +48,7 @@ Recreate this to learn:
 - CSS Grid
 - Mobile-first workflow
 
+I decided to change this to a landscaping web page using a different color palette.
 
 ## Author
 
