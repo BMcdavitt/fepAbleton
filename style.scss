@@ -178,7 +178,7 @@ $color-greener-900: hsl(167, 89%, 7%);
     }
 
     .splitCollageImage8 {
-      background-image: url('./dist/images/aboutCollage8.jpg');
+      background-image: url('../../dist/images/aboutCollage8.jpg');
       background-size: cover;
       grid-column: 2 / 11;
       grid-row: 1/ 14;
@@ -199,7 +199,7 @@ $color-greener-900: hsl(167, 89%, 7%);
   }
 
   .aboutImage2 {
-    background-image: url('./dist/images/about2.jpg');
+    background-image: url('../../dist/images/about2.jpg');
   }
 }
 

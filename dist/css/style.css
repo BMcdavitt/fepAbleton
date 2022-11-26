@@ -142,7 +142,7 @@
   }
 }
 .content .splitCollage .splitCollageImage8 {
-  background-image: url("./dist/images/aboutCollage8.jpg");
+  background-image: url("../../dist/images/aboutCollage8.jpg");
   background-size: cover;
   grid-column: 2/11;
   grid-row: 1/14;
@@ -160,7 +160,7 @@
   height: 80vh;
 }
 .content .aboutImage2 {
-  background-image: url("./dist/images/about2.jpg");
+  background-image: url("../../dist/images/about2.jpg");
 }
 
 .fadeIn {
