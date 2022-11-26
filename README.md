@@ -35,7 +35,7 @@ Recreate this to learn:
 ### Links
 
 - Solution URL: [https://github.com/BMcdavitt/fepAbleton](https://github.com/BMcdavitt/fepAbleton)
-- Live Site URL: [https://bmcdavitt.github.io/femNotificationsPage/](https://bmcdavitt.github.io/femNotificationsPage/)
+- Live Site URL: [https://bmcdavitt.github.io/fepAbleton/](https://bmcdavitt.github.io/fepAbleton/)
 
 ## My process
 
