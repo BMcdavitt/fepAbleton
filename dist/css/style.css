@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .aboutHeaderArea {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .aboutHeaderArea .aboutHeaderImage {
+  background-image: url("/dist/images/about1.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  width: 80vw;
+  height: 80vh;
+}
+.content .aboutHeaderArea .aboutHeaderText {
+  font-size: 8vw;
+  font-weight: bold;
+  position: absolute;
+  color: hsl(142deg, 77%, 29%);
+  text-shadow: 0 0 3px hsl(149deg, 100%, 15%), 0 0 5px hsl(167deg, 89%, 7%);
+}
+.content .textBucket {
+  margin: 5rem 10vw;
+}
+.content .textBucket .textBucketHeader {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.content .textBucket .textBucketText {
+  margin-bottom: 1rem;
+}
+.content .collage {
+  display: grid;
+  grid-template-columns: repeat(20, 4.9vw);
+  grid-template-rows: repeat(20, 2.7vw);
+}
+.content .collage .leftSideBackground {
+  background-color: hsl(114deg, 78%, 73%);
+  grid-column: 10/22;
+  grid-row: 1/22;
+}
+.content .collage .rightSideBackground {
+  background-color: hsl(142deg, 77%, 29%);
+  grid-column: 1/16;
+  grid-row: 1/22;
+}
+.content .collage .middleBackground {
+  background-color: hsl(126deg, 48%, 52%);
+  grid-column: 4/18;
+  grid-row: 1/22;
+}
+.content .collage .collageImage1 {
+  background-image: url("/dist/images/aboutCollage1.jpg");
+  background-size: cover;
+  grid-column: 2/12;
+  grid-row: 4/18;
+  opacity: 0.2;
+}
+.content .collage .collageImage2 {
+  background-image: url("/dist/images/aboutCollage2.jpg");
+  background-size: cover;
+  grid-column: 13/20;
+  grid-row: 6/16;
+  opacity: 0.2;
+}
+.content .collage .collageImage3 {
+  background-image: url("/dist/images/aboutCollage3.jpg");
+  background-size: cover;
+  grid-column: 3/11;
+  grid-row: 3/11;
+  opacity: 0.2;
+}
+.content .collage .collageImage4 {
+  background-image: url("/dist/images/aboutCollage4.jpg");
+  background-size: cover;
+  grid-column: 3/11;
+  grid-row: 13/20;
+  opacity: 0.2;
+}
+.content .collage .collageImage5 {
+  background-image: url("/dist/images/aboutCollage5.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 12/20;
+  grid-row: 5/18;
+  opacity: 0.2;
+}
+.content .collage .collageImage6 {
+  background-image: url("/dist/images/aboutCollage6.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 11/20;
+  grid-row: 4/19;
+  opacity: 0.2;
+}
+.content .collage .collageImage7 {
+  background-image: url("/dist/images/aboutCollage7.jpg");
+  background-size: cover;
+  grid-column: 2/9;
+  grid-row: 6/17;
+  opacity: 0.2;
+}
+.content .splitCollage {
+  display: grid;
+  grid-template-columns: repeat(20, 4.9vw);
+  grid-template-rows: repeat(14, 2.7vw);
+}
+.content .splitCollage .evenRight {
+  background-color: hsl(114deg, 78%, 73%);
+  grid-column: 11/20;
+  grid-row: 1/14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 3rem;
+  line-height: 1rem;
+}
+@media (min-width: 650px) {
+  .content .splitCollage .evenRight {
+    padding: 5rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 1000px) {
+  .content .splitCollage .evenRight {
+    font-size: 2vw;
+    padding: 8rem;
+    line-height: 3rem;
+  }
+}
+.content .splitCollage .splitCollageImage8 {
+  background-image: url("/dist/images/aboutCollage8.jpg");
+  background-size: cover;
+  grid-column: 2/11;
+  grid-row: 1/14;
+  -webkit-animation: slideRight 2s forwards;
+          animation: slideRight 2s forwards;
+}
+.content .videoBox {
+  width: 75vw;
+  height: 42vw;
+}
+.content .aboutImage {
+  background-size: cover;
+  background-position: bottom center;
+  width: 80vw;
+  height: 80vh;
+}
+.content .aboutImage2 {
+  background-image: url("/dist/images/about2.jpg");
+}
+
+.fadeIn {
+  -webkit-animation: fadeIn 1s forwards ease-in-out;
+          animation: fadeIn 1s forwards ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}

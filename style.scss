@@ -1,0 +1,217 @@
+$color-greener-100: hsl(114, 78%, 73%);
+$color-greener-300: hsl(126, 48%, 52%);
+$color-greener-500: hsl(142, 77%, 29%);
+$color-greener-700: hsl(149, 100%, 15%);
+$color-greener-900: hsl(167, 89%, 7%);
+
+@mixin large {
+  @media (min-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: 650px) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .aboutHeaderArea {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .aboutHeaderImage {
+      background-image: url('/dist/images/about1.jpg');
+      background-size: cover;
+      background-position: bottom center;
+      width: 80vw;
+      height: 80vh;
+    }
+
+    .aboutHeaderText {
+      font-size: 8vw;
+      font-weight: bold;
+      position: absolute;
+      color: $color-greener-500;
+      text-shadow: 0 0 3px $color-greener-700, 0 0 5px $color-greener-900;
+    }
+  }
+
+  .textBucket {
+    margin: 5rem 10vw;
+
+    .textBucketHeader {
+      font-weight: 800;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .textBucketText {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .collage {
+    display: grid;
+    grid-template-columns: repeat(20, 4.9vw);
+    grid-template-rows: repeat(20, 2.7vw);
+
+    .leftSideBackground {
+      background-color: $color-greener-100;
+      grid-column: 10 / 22;
+      grid-row: 1/ 22;
+    }
+
+    .rightSideBackground {
+      background-color: $color-greener-500;
+      grid-column: 1 / 16;
+      grid-row: 1/ 22;
+    }
+
+    .middleBackground {
+      background-color: $color-greener-300;
+      grid-column: 4 / 18;
+      grid-row: 1/ 22;
+    }
+
+    .collageImage1 {
+      background-image: url('/dist/images/aboutCollage1.jpg');
+      background-size: cover;
+      grid-column: 2 / 12;
+      grid-row: 4 / 18;
+      opacity: 0.2;
+    }
+
+    .collageImage2 {
+      background-image: url('/dist/images/aboutCollage2.jpg');
+      background-size: cover;
+      grid-column: 13 / 20;
+      grid-row: 6 / 16;
+      opacity: 0.2;
+    }
+
+    .collageImage3 {
+      background-image: url('/dist/images/aboutCollage3.jpg');
+      background-size: cover;
+      grid-column: 3 / 11;
+      grid-row: 3 / 11;
+      opacity: 0.2;
+    }
+
+    .collageImage4 {
+      background-image: url('/dist/images/aboutCollage4.jpg');
+      background-size: cover;
+      grid-column: 3 / 11;
+      grid-row: 13/ 20;
+      opacity: 0.2;
+    }
+
+    .collageImage5 {
+      background-image: url('/dist/images/aboutCollage5.jpg');
+      background-size: cover;
+      background-position: center;
+      grid-column: 12 / 20;
+      grid-row: 5 / 18;
+      opacity: 0.2;
+    }
+
+    .collageImage6 {
+      background-image: url('/dist/images/aboutCollage6.jpg');
+      background-size: cover;
+      background-position: center;
+      grid-column: 11 / 20;
+      grid-row: 4 / 19;
+      opacity: 0.2;
+    }
+
+    .collageImage7 {
+      background-image: url('/dist/images/aboutCollage7.jpg');
+      background-size: cover;
+      grid-column: 2 / 9;
+      grid-row: 6/ 17;
+      opacity: 0.2;
+    }
+  }
+
+  .splitCollage {
+    display: grid;
+    grid-template-columns: repeat(20, 4.9vw);
+    grid-template-rows: repeat(14, 2.7vw);
+
+    .evenRight {
+      background-color: $color-greener-100;
+      grid-column: 11 / 20;
+      grid-row: 1/ 14;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 2vw;
+      font-weight: bold;
+      padding: 3rem;
+      line-height: 1rem;
+
+      @include medium {
+        padding: 5rem;
+        line-height: 2rem;
+      }
+
+      @include large {
+        font-size: 2vw;
+        padding: 8rem;
+        line-height: 3rem;
+      }
+    }
+
+    .splitCollageImage8 {
+      background-image: url('/dist/images/aboutCollage8.jpg');
+      background-size: cover;
+      grid-column: 2 / 11;
+      grid-row: 1/ 14;
+      animation: slideRight 2s forwards;
+    }
+  }
+
+  .videoBox {
+    width: 75vw;
+    height: 42vw;
+  }
+
+  .aboutImage {
+    background-size: cover;
+    background-position: bottom center;
+    width: 80vw;
+    height: 80vh;
+  }
+
+  .aboutImage2 {
+    background-image: url('/dist/images/about2.jpg');
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s forwards ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
